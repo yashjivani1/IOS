@@ -1,0 +1,6 @@
+framework module Pods_StateRestoreDemo {
+  umbrella header "Pods-StateRestoreDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_SVGDemo {
+  umbrella header "Pods-SVGDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - StickerView (1.0)
+
+DEPENDENCIES:
+  - StickerView
+
+SPEC REPOS:
+  trunk:
+    - StickerView
+
+SPEC CHECKSUMS:
+  StickerView: c486fbc722bddaff4f521afd9028ea4dc3e25a62
+
+PODFILE CHECKSUM: 471aa8098fa80705bc3e7918c4c1e058a0f9bf7b
+
+COCOAPODS: 1.9.3
