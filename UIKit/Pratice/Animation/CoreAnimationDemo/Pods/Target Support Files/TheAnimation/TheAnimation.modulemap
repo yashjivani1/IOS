@@ -1,0 +1,6 @@
+framework module TheAnimation {
+  umbrella header "TheAnimation-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ImageUpload" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dDh-2Y-1UB">
+                                <rect key="frame" x="74" y="45" width="266" height="252"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="252" id="GBT-NE-Faj"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="leM-KQ-OTR">
+                                <rect key="frame" x="149" y="497" width="116" height="60"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="g6T-rf-hqh"/>
+                                </constraints>
+                                <state key="normal" title="Upload">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapToUpload:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SRX-Gu-DUE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wUQ-E6-d4x">
+                                <rect key="frame" x="149" y="622" width="116" height="47"/>
+                                <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Save">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapSave:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fj1-Eh-Bc4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="leM-KQ-OTR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NQJ-vk-hgn"/>
+                            <constraint firstItem="dDh-2Y-1UB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="45" id="QQB-xC-h62"/>
+                            <constraint firstItem="dDh-2Y-1UB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="74" id="W7D-ar-Uwa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="wUQ-E6-d4x" secondAttribute="bottom" constant="67" id="WYg-XI-ltL"/>
+                            <constraint firstItem="leM-KQ-OTR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="149" id="cYz-nN-mtq"/>
+                            <constraint firstItem="leM-KQ-OTR" firstAttribute="centerX" secondItem="dDh-2Y-1UB" secondAttribute="centerX" id="eDQ-Y3-SPl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="leM-KQ-OTR" secondAttribute="bottom" constant="179" id="f1x-OD-pFc"/>
+                            <constraint firstItem="wUQ-E6-d4x" firstAttribute="trailing" secondItem="leM-KQ-OTR" secondAttribute="trailing" id="ibK-Xc-lhu"/>
+                            <constraint firstItem="wUQ-E6-d4x" firstAttribute="leading" secondItem="leM-KQ-OTR" secondAttribute="leading" id="ogq-mj-Y1W"/>
+                            <constraint firstItem="wUQ-E6-d4x" firstAttribute="top" secondItem="leM-KQ-OTR" secondAttribute="bottom" constant="65" id="qHm-JC-KKi"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageUpload" destination="dDh-2Y-1UB" id="K7o-fe-kWf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="112.50000000000001"/>
+        </scene>
+    </scenes>
+</document>
