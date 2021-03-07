@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		080E4D1724C55ED100778111 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080E4D1624C55ED100778111 /* LoginController.swift */; };
+		08CF841724C2B35000A70B34 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CF841624C2B35000A70B34 /* Constants.swift */; };
+		08CF841924C2B40000A70B34 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CF841824C2B40000A70B34 /* SignUpController.swift */; };
+		08CF841B24C2C0C700A70B34 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CF841A24C2C0C700A70B34 /* User.swift */; };
+		08D119C824C6A8CD002B0F3D /* MusicService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D119C724C6A8CD002B0F3D /* MusicService.swift */; };
+		08D119CA24C6A9DF002B0F3D /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D119C924C6A9DF002B0F3D /* Music.swift */; };
+		08D4F54D24BC3D4600D60450 /* MusicListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D4F54C24BC3D4600D60450 /* MusicListCell.swift */; };
+		08D4F54F24BC538900D60450 /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D4F54E24BC538900D60450 /* MusicPlayer.swift */; };
+		08D7DE7D24BC1DBD00047C40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D7DE7C24BC1DBD00047C40 /* AppDelegate.swift */; };
+		08D7DE7F24BC1DBD00047C40 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D7DE7E24BC1DBD00047C40 /* SceneDelegate.swift */; };
+		08D7DE8124BC1DBD00047C40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D7DE8024BC1DBD00047C40 /* ViewController.swift */; };
+		08D7DE8424BC1DBD00047C40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08D7DE8224BC1DBD00047C40 /* Main.storyboard */; };
+		08D7DE8624BC1DBE00047C40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08D7DE8524BC1DBE00047C40 /* Assets.xcassets */; };
+		08D7DE8924BC1DBE00047C40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08D7DE8724BC1DBE00047C40 /* LaunchScreen.storyboard */; };
+		08D7DE9224BC249100047C40 /* MusicListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D7DE9124BC249100047C40 /* MusicListController.swift */; };
+		08D90C2D24BD8486002EF252 /* SearchImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D90C2C24BD8486002EF252 /* SearchImageController.swift */; };
+		08D90C2F24BD8523002EF252 /* ResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D90C2E24BD8523002EF252 /* ResultController.swift */; };
+		49ED0A863C2B88581BE0C260 /* Pods_Hindu_Vishvakosh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F4FCB3A2E58B371E509047 /* Pods_Hindu_Vishvakosh.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		080E4D1624C55ED100778111 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		08CF841624C2B35000A70B34 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		08CF841824C2B40000A70B34 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		08CF841A24C2C0C700A70B34 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		08D119C724C6A8CD002B0F3D /* MusicService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicService.swift; sourceTree = "<group>"; };
+		08D119C924C6A9DF002B0F3D /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		08D4F54C24BC3D4600D60450 /* MusicListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicListCell.swift; sourceTree = "<group>"; };
+		08D4F54E24BC538900D60450 /* MusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
+		08D7DE7924BC1DBD00047C40 /* Hindu Vishvakosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hindu Vishvakosh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08D7DE7C24BC1DBD00047C40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		08D7DE7E24BC1DBD00047C40 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		08D7DE8024BC1DBD00047C40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		08D7DE8324BC1DBD00047C40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08D7DE8524BC1DBE00047C40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08D7DE8824BC1DBE00047C40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08D7DE8A24BC1DBE00047C40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08D7DE9124BC249100047C40 /* MusicListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicListController.swift; sourceTree = "<group>"; };
+		08D90C2C24BD8486002EF252 /* SearchImageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchImageController.swift; sourceTree = "<group>"; };
+		08D90C2E24BD8523002EF252 /* ResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultController.swift; sourceTree = "<group>"; };
+		572DBCC549C79E423CE507E9 /* Pods-Hindu Vishvakosh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hindu Vishvakosh.debug.xcconfig"; path = "Target Support Files/Pods-Hindu Vishvakosh/Pods-Hindu Vishvakosh.debug.xcconfig"; sourceTree = "<group>"; };
+		85BC114E8754BE6D78B6B746 /* Pods-Hindu Vishvakosh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hindu Vishvakosh.release.xcconfig"; path = "Target Support Files/Pods-Hindu Vishvakosh/Pods-Hindu Vishvakosh.release.xcconfig"; sourceTree = "<group>"; };
+		E8F4FCB3A2E58B371E509047 /* Pods_Hindu_Vishvakosh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hindu_Vishvakosh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08D7DE7624BC1DBD00047C40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49ED0A863C2B88581BE0C260 /* Pods_Hindu_Vishvakosh.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08CF841524C2B29F00A70B34 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				08CF841A24C2C0C700A70B34 /* User.swift */,
+				08D119C724C6A8CD002B0F3D /* MusicService.swift */,
+				08D119C924C6A9DF002B0F3D /* Music.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		08D7DE7024BC1DBD00047C40 = {
+			isa = PBXGroup;
+			children = (
+				08D7DE7B24BC1DBD00047C40 /* Hindu Vishvakosh */,
+				08D7DE7A24BC1DBD00047C40 /* Products */,
+				64F0668E5E81B9C23FF35EEF /* Pods */,
+				39032A22D75A244B499F9468 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		08D7DE7A24BC1DBD00047C40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08D7DE7924BC1DBD00047C40 /* Hindu Vishvakosh.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08D7DE7B24BC1DBD00047C40 /* Hindu Vishvakosh */ = {
+			isa = PBXGroup;
+			children = (
+				08CF841524C2B29F00A70B34 /* Models */,
+				08D7DE9324BC25FB00047C40 /* Views */,
+				08D7DE9024BC244E00047C40 /* Controllers */,
+				08D7DE7C24BC1DBD00047C40 /* AppDelegate.swift */,
+				08D7DE7E24BC1DBD00047C40 /* SceneDelegate.swift */,
+				08D7DE8024BC1DBD00047C40 /* ViewController.swift */,
+				08D7DE8224BC1DBD00047C40 /* Main.storyboard */,
+				08D7DE8524BC1DBE00047C40 /* Assets.xcassets */,
+				08D7DE8724BC1DBE00047C40 /* LaunchScreen.storyboard */,
+				08D7DE8A24BC1DBE00047C40 /* Info.plist */,
+				08CF841624C2B35000A70B34 /* Constants.swift */,
+			);
+			path = "Hindu Vishvakosh";
+			sourceTree = "<group>";
+		};
+		08D7DE9024BC244E00047C40 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				08D7DE9124BC249100047C40 /* MusicListController.swift */,
+				08D4F54C24BC3D4600D60450 /* MusicListCell.swift */,
+				08D4F54E24BC538900D60450 /* MusicPlayer.swift */,
+				08D90C2C24BD8486002EF252 /* SearchImageController.swift */,
+				08D90C2E24BD8523002EF252 /* ResultController.swift */,
+				08CF841824C2B40000A70B34 /* SignUpController.swift */,
+				080E4D1624C55ED100778111 /* LoginController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		08D7DE9324BC25FB00047C40 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		39032A22D75A244B499F9468 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8F4FCB3A2E58B371E509047 /* Pods_Hindu_Vishvakosh.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64F0668E5E81B9C23FF35EEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				572DBCC549C79E423CE507E9 /* Pods-Hindu Vishvakosh.debug.xcconfig */,
+				85BC114E8754BE6D78B6B746 /* Pods-Hindu Vishvakosh.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08D7DE7824BC1DBD00047C40 /* Hindu Vishvakosh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08D7DE8D24BC1DBE00047C40 /* Build configuration list for PBXNativeTarget "Hindu Vishvakosh" */;
+			buildPhases = (
+				3B3C265016DCC2ED7A82A3CC /* [CP] Check Pods Manifest.lock */,
+				08D7DE7524BC1DBD00047C40 /* Sources */,
+				08D7DE7624BC1DBD00047C40 /* Frameworks */,
+				08D7DE7724BC1DBD00047C40 /* Resources */,
+				03A93717F30E82D9A3D9CD92 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hindu Vishvakosh";
+			productName = "Hindu Vishvakosh";
+			productReference = 08D7DE7924BC1DBD00047C40 /* Hindu Vishvakosh.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08D7DE7124BC1DBD00047C40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = haco;
+				TargetAttributes = {
+					08D7DE7824BC1DBD00047C40 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 08D7DE7424BC1DBD00047C40 /* Build configuration list for PBXProject "Hindu Vishvakosh" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08D7DE7024BC1DBD00047C40;
+			productRefGroup = 08D7DE7A24BC1DBD00047C40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08D7DE7824BC1DBD00047C40 /* Hindu Vishvakosh */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08D7DE7724BC1DBD00047C40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08D7DE8924BC1DBE00047C40 /* LaunchScreen.storyboard in Resources */,
+				08D7DE8624BC1DBE00047C40 /* Assets.xcassets in Resources */,
+				08D7DE8424BC1DBD00047C40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03A93717F30E82D9A3D9CD92 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hindu Vishvakosh/Pods-Hindu Vishvakosh-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hindu Vishvakosh/Pods-Hindu Vishvakosh-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hindu Vishvakosh/Pods-Hindu Vishvakosh-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B3C265016DCC2ED7A82A3CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hindu Vishvakosh-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08D7DE7524BC1DBD00047C40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08D7DE8124BC1DBD00047C40 /* ViewController.swift in Sources */,
+				08D119C824C6A8CD002B0F3D /* MusicService.swift in Sources */,
+				080E4D1724C55ED100778111 /* LoginController.swift in Sources */,
+				08D90C2D24BD8486002EF252 /* SearchImageController.swift in Sources */,
+				08D7DE9224BC249100047C40 /* MusicListController.swift in Sources */,
+				08D4F54F24BC538900D60450 /* MusicPlayer.swift in Sources */,
+				08D90C2F24BD8523002EF252 /* ResultController.swift in Sources */,
+				08CF841924C2B40000A70B34 /* SignUpController.swift in Sources */,
+				08D7DE7D24BC1DBD00047C40 /* AppDelegate.swift in Sources */,
+				08D7DE7F24BC1DBD00047C40 /* SceneDelegate.swift in Sources */,
+				08D4F54D24BC3D4600D60450 /* MusicListCell.swift in Sources */,
+				08D119CA24C6A9DF002B0F3D /* Music.swift in Sources */,
+				08CF841724C2B35000A70B34 /* Constants.swift in Sources */,
+				08CF841B24C2C0C700A70B34 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		08D7DE8224BC1DBD00047C40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08D7DE8324BC1DBD00047C40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08D7DE8724BC1DBE00047C40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08D7DE8824BC1DBE00047C40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08D7DE8B24BC1DBE00047C40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		08D7DE8C24BC1DBE00047C40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08D7DE8E24BC1DBE00047C40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 572DBCC549C79E423CE507E9 /* Pods-Hindu Vishvakosh.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Y6WRXR4PK;
+				INFOPLIST_FILE = "Hindu Vishvakosh/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = haco.visvakosh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08D7DE8F24BC1DBE00047C40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85BC114E8754BE6D78B6B746 /* Pods-Hindu Vishvakosh.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3Y6WRXR4PK;
+				INFOPLIST_FILE = "Hindu Vishvakosh/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = haco.visvakosh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08D7DE7424BC1DBD00047C40 /* Build configuration list for PBXProject "Hindu Vishvakosh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08D7DE8B24BC1DBE00047C40 /* Debug */,
+				08D7DE8C24BC1DBE00047C40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08D7DE8D24BC1DBE00047C40 /* Build configuration list for PBXNativeTarget "Hindu Vishvakosh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08D7DE8E24BC1DBE00047C40 /* Debug */,
+				08D7DE8F24BC1DBE00047C40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08D7DE7124BC1DBD00047C40 /* Project object */;
+}

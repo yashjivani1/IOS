@@ -1,0 +1,6 @@
+framework module Pods_Hindu_Vishvakosh {
+  umbrella header "Pods-Hindu Vishvakosh-umbrella.h"
+
+  export *
+  module * { export * }
+}
