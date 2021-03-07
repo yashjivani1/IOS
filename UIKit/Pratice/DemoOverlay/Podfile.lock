@@ -1,0 +1,16 @@
+PODS:
+  - Kitsunebi (0.20.2)
+
+DEPENDENCIES:
+  - Kitsunebi
+
+SPEC REPOS:
+  trunk:
+    - Kitsunebi
+
+SPEC CHECKSUMS:
+  Kitsunebi: 2955a6ed87855313397a5bf5110eeb43d662ec10
+
+PODFILE CHECKSUM: 3d07ef64cbe7cc429d9f61842529c75aea1e192a
+
+COCOAPODS: 1.9.3

@@ -1,0 +1,6 @@
+framework module Kitsunebi {
+  umbrella header "Kitsunebi-umbrella.h"
+
+  export *
+  module * { export * }
+}

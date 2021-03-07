@@ -1,0 +1,20 @@
+PODS:
+  - MarqueeLabel (4.0.5)
+  - SwiftGifOrigin (1.7.0)
+
+DEPENDENCIES:
+  - MarqueeLabel
+  - SwiftGifOrigin
+
+SPEC REPOS:
+  trunk:
+    - MarqueeLabel
+    - SwiftGifOrigin
+
+SPEC CHECKSUMS:
+  MarqueeLabel: 00cc0bcd087111dca575878b3531af980559707d
+  SwiftGifOrigin: fbd6cf37afcfcf97a5c3db996ddc0492e5c5c145
+
+PODFILE CHECKSUM: 02b9041a4a843ca893772ce03475eb8035a1fbd7
+
+COCOAPODS: 1.9.3

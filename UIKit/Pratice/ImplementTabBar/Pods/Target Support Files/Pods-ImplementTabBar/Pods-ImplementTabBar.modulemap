@@ -1,0 +1,6 @@
+module Pods_ImplementTabBar {
+  umbrella header "Pods-ImplementTabBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

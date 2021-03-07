@@ -1,0 +1,18 @@
+PODS:
+  - collection-view-layouts/Core (0.2.2)
+  - collection-view-layouts/InstagramLayout (0.2.2):
+    - collection-view-layouts/Core
+
+DEPENDENCIES:
+  - collection-view-layouts/InstagramLayout
+
+SPEC REPOS:
+  trunk:
+    - collection-view-layouts
+
+SPEC CHECKSUMS:
+  collection-view-layouts: 474ec4cce601a26247737227a97fa6a4eb30213f
+
+PODFILE CHECKSUM: 5bc3193977e85cd307ecbd4f878b863714ceae6a
+
+COCOAPODS: 1.9.3

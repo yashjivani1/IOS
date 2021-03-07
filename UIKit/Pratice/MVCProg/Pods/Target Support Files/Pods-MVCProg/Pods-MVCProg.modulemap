@@ -1,0 +1,6 @@
+module Pods_MVCProg {
+  umbrella header "Pods-MVCProg-umbrella.h"
+
+  export *
+  module * { export * }
+}

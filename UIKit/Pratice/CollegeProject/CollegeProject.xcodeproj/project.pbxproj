@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9950B65C25D77C35004E5ABC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9950B65B25D77C35004E5ABC /* AppDelegate.swift */; };
+		9950B65E25D77C35004E5ABC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9950B65D25D77C35004E5ABC /* SceneDelegate.swift */; };
+		9950B66025D77C35004E5ABC /* FeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9950B65F25D77C35004E5ABC /* FeatureViewController.swift */; };
+		9950B66325D77C35004E5ABC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9950B66125D77C35004E5ABC /* Main.storyboard */; };
+		9950B66525D77C36004E5ABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9950B66425D77C36004E5ABC /* Assets.xcassets */; };
+		9950B66825D77C36004E5ABC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9950B66625D77C36004E5ABC /* LaunchScreen.storyboard */; };
+		9950B67425D77D12004E5ABC /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9950B67325D77D12004E5ABC /* SearchViewController.swift */; };
+		9950B67825D77D3B004E5ABC /* WishListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9950B67725D77D3B004E5ABC /* WishListViewController.swift */; };
+		9950B67B25D77D4B004E5ABC /* MyCoursesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9950B67A25D77D4B004E5ABC /* MyCoursesViewController.swift */; };
+		9950B67E25D77D6E004E5ABC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9950B67D25D77D6E004E5ABC /* ProfileViewController.swift */; };
+		9950B68425D7800F004E5ABC /* MyCoursesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9950B68225D7800F004E5ABC /* MyCoursesTableViewCell.swift */; };
+		9950B68525D7800F004E5ABC /* MyCoursesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9950B68325D7800F004E5ABC /* MyCoursesTableViewCell.xib */; };
+		9950B68A25D785C2004E5ABC /* SearchCourseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9950B68825D785C2004E5ABC /* SearchCourseTableViewCell.swift */; };
+		9950B68B25D785C2004E5ABC /* SearchCourseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9950B68925D785C2004E5ABC /* SearchCourseTableViewCell.xib */; };
+		9950B69125D78A86004E5ABC /* ProfileImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9950B68F25D78A86004E5ABC /* ProfileImageTableViewCell.swift */; };
+		9950B69225D78A86004E5ABC /* ProfileImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9950B69025D78A86004E5ABC /* ProfileImageTableViewCell.xib */; };
+		9950B69725D78C8F004E5ABC /* ProfileTextFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9950B69525D78C8F004E5ABC /* ProfileTextFieldTableViewCell.swift */; };
+		9950B69825D78C8F004E5ABC /* ProfileTextFieldTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9950B69625D78C8F004E5ABC /* ProfileTextFieldTableViewCell.xib */; };
+		9950B69B25D794EF004E5ABC /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9950B69A25D794EF004E5ABC /* SettingViewController.swift */; };
+		9950B6A025D7982C004E5ABC /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9950B69E25D7982C004E5ABC /* TitleTableViewCell.swift */; };
+		9950B6A125D7982C004E5ABC /* TitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9950B69F25D7982C004E5ABC /* TitleTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9950B65825D77C35004E5ABC /* CollegeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollegeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9950B65B25D77C35004E5ABC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9950B65D25D77C35004E5ABC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9950B65F25D77C35004E5ABC /* FeatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureViewController.swift; sourceTree = "<group>"; };
+		9950B66225D77C35004E5ABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9950B66425D77C36004E5ABC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9950B66725D77C36004E5ABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9950B66925D77C36004E5ABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9950B67325D77D12004E5ABC /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		9950B67725D77D3B004E5ABC /* WishListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListViewController.swift; sourceTree = "<group>"; };
+		9950B67A25D77D4B004E5ABC /* MyCoursesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCoursesViewController.swift; sourceTree = "<group>"; };
+		9950B67D25D77D6E004E5ABC /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		9950B68225D7800F004E5ABC /* MyCoursesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCoursesTableViewCell.swift; sourceTree = "<group>"; };
+		9950B68325D7800F004E5ABC /* MyCoursesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCoursesTableViewCell.xib; sourceTree = "<group>"; };
+		9950B68825D785C2004E5ABC /* SearchCourseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCourseTableViewCell.swift; sourceTree = "<group>"; };
+		9950B68925D785C2004E5ABC /* SearchCourseTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchCourseTableViewCell.xib; sourceTree = "<group>"; };
+		9950B68F25D78A86004E5ABC /* ProfileImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageTableViewCell.swift; sourceTree = "<group>"; };
+		9950B69025D78A86004E5ABC /* ProfileImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileImageTableViewCell.xib; sourceTree = "<group>"; };
+		9950B69525D78C8F004E5ABC /* ProfileTextFieldTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTextFieldTableViewCell.swift; sourceTree = "<group>"; };
+		9950B69625D78C8F004E5ABC /* ProfileTextFieldTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileTextFieldTableViewCell.xib; sourceTree = "<group>"; };
+		9950B69A25D794EF004E5ABC /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		9950B69E25D7982C004E5ABC /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
+		9950B69F25D7982C004E5ABC /* TitleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9950B65525D77C35004E5ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9950B64F25D77C35004E5ABC = {
+			isa = PBXGroup;
+			children = (
+				9950B65A25D77C35004E5ABC /* CollegeProject */,
+				9950B65925D77C35004E5ABC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9950B65925D77C35004E5ABC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9950B65825D77C35004E5ABC /* CollegeProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9950B65A25D77C35004E5ABC /* CollegeProject */ = {
+			isa = PBXGroup;
+			children = (
+				9950B67225D77CF1004E5ABC /* Model */,
+				9950B67125D77CE6004E5ABC /* View */,
+				9950B67025D77CDD004E5ABC /* Controller */,
+				9950B65B25D77C35004E5ABC /* AppDelegate.swift */,
+				9950B65D25D77C35004E5ABC /* SceneDelegate.swift */,
+				9950B66125D77C35004E5ABC /* Main.storyboard */,
+				9950B66425D77C36004E5ABC /* Assets.xcassets */,
+				9950B66625D77C36004E5ABC /* LaunchScreen.storyboard */,
+				9950B66925D77C36004E5ABC /* Info.plist */,
+			);
+			path = CollegeProject;
+			sourceTree = "<group>";
+		};
+		9950B67025D77CDD004E5ABC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9950B65F25D77C35004E5ABC /* FeatureViewController.swift */,
+				9950B67325D77D12004E5ABC /* SearchViewController.swift */,
+				9950B67725D77D3B004E5ABC /* WishListViewController.swift */,
+				9950B67A25D77D4B004E5ABC /* MyCoursesViewController.swift */,
+				9950B67D25D77D6E004E5ABC /* ProfileViewController.swift */,
+				9950B69A25D794EF004E5ABC /* SettingViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9950B67125D77CE6004E5ABC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9950B69D25D796F8004E5ABC /* FeatureViewCells */,
+				9950B68E25D78A1C004E5ABC /* ProfileViewCells */,
+				9950B68725D7859E004E5ABC /* SearchCourseTableViewCell */,
+				9950B68025D77F3F004E5ABC /* MyCoursesTableViewCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9950B67225D77CF1004E5ABC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9950B68025D77F3F004E5ABC /* MyCoursesTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				9950B68225D7800F004E5ABC /* MyCoursesTableViewCell.swift */,
+				9950B68325D7800F004E5ABC /* MyCoursesTableViewCell.xib */,
+			);
+			path = MyCoursesTableViewCell;
+			sourceTree = "<group>";
+		};
+		9950B68725D7859E004E5ABC /* SearchCourseTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				9950B68825D785C2004E5ABC /* SearchCourseTableViewCell.swift */,
+				9950B68925D785C2004E5ABC /* SearchCourseTableViewCell.xib */,
+			);
+			path = SearchCourseTableViewCell;
+			sourceTree = "<group>";
+		};
+		9950B68E25D78A1C004E5ABC /* ProfileViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				9950B68F25D78A86004E5ABC /* ProfileImageTableViewCell.swift */,
+				9950B69025D78A86004E5ABC /* ProfileImageTableViewCell.xib */,
+				9950B69525D78C8F004E5ABC /* ProfileTextFieldTableViewCell.swift */,
+				9950B69625D78C8F004E5ABC /* ProfileTextFieldTableViewCell.xib */,
+			);
+			path = ProfileViewCells;
+			sourceTree = "<group>";
+		};
+		9950B69D25D796F8004E5ABC /* FeatureViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				9950B69E25D7982C004E5ABC /* TitleTableViewCell.swift */,
+				9950B69F25D7982C004E5ABC /* TitleTableViewCell.xib */,
+			);
+			path = FeatureViewCells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9950B65725D77C35004E5ABC /* CollegeProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9950B66C25D77C36004E5ABC /* Build configuration list for PBXNativeTarget "CollegeProject" */;
+			buildPhases = (
+				9950B65425D77C35004E5ABC /* Sources */,
+				9950B65525D77C35004E5ABC /* Frameworks */,
+				9950B65625D77C35004E5ABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollegeProject;
+			productName = CollegeProject;
+			productReference = 9950B65825D77C35004E5ABC /* CollegeProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9950B65025D77C35004E5ABC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					9950B65725D77C35004E5ABC = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = 9950B65325D77C35004E5ABC /* Build configuration list for PBXProject "CollegeProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9950B64F25D77C35004E5ABC;
+			productRefGroup = 9950B65925D77C35004E5ABC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9950B65725D77C35004E5ABC /* CollegeProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9950B65625D77C35004E5ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9950B68525D7800F004E5ABC /* MyCoursesTableViewCell.xib in Resources */,
+				9950B69225D78A86004E5ABC /* ProfileImageTableViewCell.xib in Resources */,
+				9950B66825D77C36004E5ABC /* LaunchScreen.storyboard in Resources */,
+				9950B66525D77C36004E5ABC /* Assets.xcassets in Resources */,
+				9950B6A125D7982C004E5ABC /* TitleTableViewCell.xib in Resources */,
+				9950B68B25D785C2004E5ABC /* SearchCourseTableViewCell.xib in Resources */,
+				9950B69825D78C8F004E5ABC /* ProfileTextFieldTableViewCell.xib in Resources */,
+				9950B66325D77C35004E5ABC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9950B65425D77C35004E5ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9950B66025D77C35004E5ABC /* FeatureViewController.swift in Sources */,
+				9950B67B25D77D4B004E5ABC /* MyCoursesViewController.swift in Sources */,
+				9950B6A025D7982C004E5ABC /* TitleTableViewCell.swift in Sources */,
+				9950B67825D77D3B004E5ABC /* WishListViewController.swift in Sources */,
+				9950B65C25D77C35004E5ABC /* AppDelegate.swift in Sources */,
+				9950B68A25D785C2004E5ABC /* SearchCourseTableViewCell.swift in Sources */,
+				9950B68425D7800F004E5ABC /* MyCoursesTableViewCell.swift in Sources */,
+				9950B67E25D77D6E004E5ABC /* ProfileViewController.swift in Sources */,
+				9950B69725D78C8F004E5ABC /* ProfileTextFieldTableViewCell.swift in Sources */,
+				9950B67425D77D12004E5ABC /* SearchViewController.swift in Sources */,
+				9950B65E25D77C35004E5ABC /* SceneDelegate.swift in Sources */,
+				9950B69125D78A86004E5ABC /* ProfileImageTableViewCell.swift in Sources */,
+				9950B69B25D794EF004E5ABC /* SettingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9950B66125D77C35004E5ABC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9950B66225D77C35004E5ABC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9950B66625D77C36004E5ABC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9950B66725D77C36004E5ABC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9950B66A25D77C36004E5ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9950B66B25D77C36004E5ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9950B66D25D77C36004E5ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CollegeProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.haco.CollegeProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9950B66E25D77C36004E5ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CollegeProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.haco.CollegeProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9950B65325D77C35004E5ABC /* Build configuration list for PBXProject "CollegeProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9950B66A25D77C36004E5ABC /* Debug */,
+				9950B66B25D77C36004E5ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9950B66C25D77C36004E5ABC /* Build configuration list for PBXNativeTarget "CollegeProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9950B66D25D77C36004E5ABC /* Debug */,
+				9950B66E25D77C36004E5ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9950B65025D77C35004E5ABC /* Project object */;
+}

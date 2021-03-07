@@ -1,0 +1,6 @@
+framework module Pods_MultiPartDemo {
+  umbrella header "Pods-MultiPartDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

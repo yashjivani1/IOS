@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MultiPartDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fXK-Kg-A0x">
+                                <rect key="frame" x="10" y="542" width="394" height="30"/>
+                                <state key="normal" title="Photo Library"/>
+                                <connections>
+                                    <action selector="photoAlbumTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0r1-Yg-ApI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LXo-41-ORp">
+                                <rect key="frame" x="10" y="614" width="394" height="30"/>
+                                <state key="normal" title="Upload"/>
+                                <connections>
+                                    <action selector="uploadBtnTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yGi-zf-nm6"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SMc-eb-1Z1">
+                                <rect key="frame" x="10" y="54" width="394" height="478"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fXK-Kg-A0x" secondAttribute="trailing" constant="10" id="3Eu-5H-pUk"/>
+                            <constraint firstItem="fXK-Kg-A0x" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="9Hy-FX-fmj"/>
+                            <constraint firstItem="LXo-41-ORp" firstAttribute="top" secondItem="fXK-Kg-A0x" secondAttribute="bottom" constant="42" id="Cjb-4l-SpJ"/>
+                            <constraint firstItem="SMc-eb-1Z1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="IPz-Kv-gPq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LXo-41-ORp" secondAttribute="trailing" constant="10" id="LmC-gC-vA9"/>
+                            <constraint firstItem="SMc-eb-1Z1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="M1v-sd-tcB"/>
+                            <constraint firstItem="LXo-41-ORp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="cEq-g4-gus"/>
+                            <constraint firstItem="fXK-Kg-A0x" firstAttribute="top" secondItem="SMc-eb-1Z1" secondAttribute="bottom" constant="10" id="uIe-Ys-HGv"/>
+                            <constraint firstItem="fXK-Kg-A0x" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="498" id="uyY-Aa-Uxk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SMc-eb-1Z1" secondAttribute="trailing" constant="10" id="znC-tc-A7a"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageUpload" destination="SMc-eb-1Z1" id="jRI-bH-2Z7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="139"/>
+        </scene>
+    </scenes>
+</document>

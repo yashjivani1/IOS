@@ -1,0 +1,6 @@
+module Pods_DrawerNavDemo {
+  umbrella header "Pods-DrawerNavDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
