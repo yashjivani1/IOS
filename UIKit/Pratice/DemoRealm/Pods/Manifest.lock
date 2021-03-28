@@ -1,0 +1,26 @@
+PODS:
+  - Realm (4.3.2):
+    - Realm/Headers (= 4.3.2)
+  - Realm/Headers (4.3.2)
+  - RealmSwift (4.3.2):
+    - Realm (= 4.3.2)
+  - StickerView (1.0)
+
+DEPENDENCIES:
+  - RealmSwift (~> 4.3.1)
+  - StickerView
+
+SPEC REPOS:
+  trunk:
+    - Realm
+    - RealmSwift
+    - StickerView
+
+SPEC CHECKSUMS:
+  Realm: 5e92902e2875dff4bb0fd02f67bb737c3d5db2bc
+  RealmSwift: 9a360fc7bae04fc2e308a34fbd899d5faa2d6b22
+  StickerView: c486fbc722bddaff4f521afd9028ea4dc3e25a62
+
+PODFILE CHECKSUM: 7bc25fb0a8d5c32d8cf86964bf4783189c3fff59
+
+COCOAPODS: 1.10.1

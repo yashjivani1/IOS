@@ -1,0 +1,6 @@
+framework module Pods_DemoRealm {
+  umbrella header "Pods-DemoRealm-umbrella.h"
+
+  export *
+  module * { export * }
+}
