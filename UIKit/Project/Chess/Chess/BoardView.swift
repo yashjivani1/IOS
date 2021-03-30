@@ -24,6 +24,7 @@ class BoardView: UIView{
     var movingPieceX: CGFloat = -1
     var movingPieceY: CGFloat = -1
     
+    var blackAtTop = true
     
     override func draw(_ rect: CGRect) {
         cellSize = bounds.width * ratio / 8
@@ -37,14 +38,14 @@ class BoardView: UIView{
         let first = touches.first!
         let fingerLocation = first.location(in: self)
         
-        fromCol = Int((fingerLocation.x - originX) / cellSize)
-        fromRow = Int((fingerLocation.y - originY) / cellSize)
+        fromCol = p2p(coordinate: Int((fingerLocation.x - originX) / cellSize))
+        fromRow = p2p(coordinate: Int((fingerLocation.y - originY) / cellSize))
     
         if let fromCol = fromCol, let fromRow = fromRow, let movingPiece = chessDelegate?.pieceAt(col: fromCol, row: fromRow){
             movingImage = UIImage(named: movingPiece.imageName)
         }
         
-        print("From \(fromCol) ,  \(fromRow)")
+        //print("From \(fromCol) ,  \(fromRow)")
     
     }
     
@@ -61,9 +62,9 @@ class BoardView: UIView{
         let first = touches.first!
         let fingerLocation = first.location(in: self)
         
-        let toCol : Int = Int((fingerLocation.x - originX) / cellSize)
-        let toRow : Int = Int((fingerLocation.y - originY) / cellSize)
-        print("To \(toCol) ,  \(toRow)")
+        let toCol : Int = p2p(coordinate: Int((fingerLocation.x - originX) / cellSize))
+        let toRow : Int = p2p(coordinate: Int((fingerLocation.y - originY) / cellSize))
+       // print("To \(toCol) ,  \(toRow)")
         
         
         if let fromCol = fromCol, let fromRow = fromRow, fromCol != toCol || fromRow != toRow{
@@ -73,6 +74,8 @@ class BoardView: UIView{
         movingImage = nil
         fromCol = nil
         fromRow = nil
+        
+        setNeedsDisplay()
     }
     
     func drawBoard(){
@@ -102,9 +105,16 @@ class BoardView: UIView{
             }
             
             let pieceImage = UIImage(named: piece.imageName)
-            pieceImage?.draw(in: CGRect(x: originX + CGFloat(piece.col) * cellSize, y: originY + CGFloat(piece.row) * cellSize, width: cellSize, height: cellSize))
+//            let col = blackAtTop ? piece.col : p2p(coordinate: piece.col)
+//            let row = blackAtTop ? piece.row : p2p(coordinate: piece.row)
+            
+            pieceImage?.draw(in: CGRect(x: originX + CGFloat(p2p(coordinate: piece.col)) * cellSize, y: originY + CGFloat(p2p(coordinate: piece.row)) * cellSize, width: cellSize, height: cellSize))
         
         }
         movingImage?.draw(in: CGRect(x: movingPieceX - cellSize/2, y: movingPieceY - cellSize/2, width: cellSize, height: cellSize))
+    }
+    
+    func p2p(coordinate: Int) -> Int{
+        return blackAtTop ? coordinate : 7 - coordinate
     }
 }
